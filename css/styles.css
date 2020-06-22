@@ -1,0 +1,69 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color:#666;
+  width: 100%
+}
+.first-container, .second-container, .third-container{
+  opacity: 0.70;
+  position: relative;   
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.first-container
+{
+  background-image: url("https://a-static.besthdwallpaper.com/new-york-morning-wallpaper-3000x2000-188_42.jpg");
+  min-height: 100%;
+}
+.second-container
+{
+  background-image: url("https://c1.wallpaperflare.com/preview/85/152/13/lamps-colorful-lights-light.jpg");
+  min-height: 400px;
+}
+.third-container{
+  background-image: url("http://theprotocity.com/wp-content/uploads/2020/03/pedro-lastra-Nyvq2juw4_o-unsplash-726x400.jpg");
+  min-height: 400px;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+  }
+  .section-light {
+    background-color: #f4f4f4;
+      color: #666;
+  }
+  .section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+.mid-text
+{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+}
+.mid-text .border
+{
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+.mid-text .border.trans
+{
+  background-color: #00000000;
+}
+@media(max-width:568px){
+  .first-container, .second-container, .third-container{
+    background-attachment:scroll;
+  }
+}
